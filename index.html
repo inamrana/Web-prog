@@ -7,23 +7,39 @@
     <title>Art Gallery | Contemporary & Classic Art Exhibitions</title>
 </head>
 <body style="background-image: url('back.jpg'); background-size: cover; background-repeat: no-repeat;">
- <div align="right" height="2px" >
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="gallery.html">Gallery</a>
-    <a href="feedback.html">Feedback</a>
-</div>
+ 
+    <!--menu section   -->
+    <nav style="background-color:#333; padding:12px; text-align:center; position:sticky; top:0;">
+    <a href="#home" style="color:white;">Home</a>
+    <a href="#about" style="color:white;">About</a>
+    <a href="#gallery" style="color:white;">Gallery</a>
+    <a href="#feedback" style="color:white;">Feedback</a>
+    </nav>
+    <!--Heading-->
    <h1 style="text-align: center;">Art Gallery | Contemporary & Classic Art Exhibitions</h1>
-    <h2>Welcome to Our Art Gallery</h2>
+    <h2 align="center">Welcome to Our Art Gallery</h2>
     <p>Discover a diverse collection of contemporary and classic art from renowned artists around the world. Our gallery showcases paintings, sculptures, and installations that inspire and captivate art enthusiasts of all ages.</p>
-    <h2>Current Exhibitions</h2>
+    <!--Current Exhibitions-->
+    <h2 align="center">Current Exhibitions</h2>
     <ul>
         <li><strong>Modern Visions:</strong> Explore the latest trends in contemporary art with works from emerging artists.</li>
         <li><strong>Classical Inspirations:</strong> A curated selection of timeless pieces from the Renaissance to the 19th century.</li>
         <li><strong>Sculpture Garden:</strong> An outdoor exhibition featuring stunning sculptures set against a natural backdrop.</li>
     </ul>
+<!--Gallery-->
+<section id="gallery">
+<h2 align="center">GALLERY</h2>
+<img src="art1.jpg" alt="first artwork" style="width: 200px;" height="auto">
+<img src="art2.jpg" alt="2nd artwork" style="width: 200px;" height="auto">
+</section>
+<!--About-->
+<section id="about">
+    <h1 align="center">About</h1>
+    <p>Behind the Canvas: Learn about the history, mission, and vision of our art gallery. Discover how we curate our exhibitions and support artists from around the world.</p>    
+</section>
 
-    
+
+    <!--Visit Us -->
     <h2>Visit Us</h2>
     <p>Our gallery is open Tuesday to Sunday from 10 AM to 6 PM. We are located at 123 Art Lane, Creativity City. Admission is free for all visitors.</p>
     <h2>Contact Information</h2>
@@ -31,5 +47,21 @@
         <a href="mailto:info@artgallery.com">info@artgallery.com</a>
     </p>
    
+<!--Feedback-->
+<section id="feedback">
+    <h1 align="center">Feedback</h1> 
+    <p>Please share your feedback with us</p>
+    <form action="#" method="post">
+        <label for="name">Name:</label>
+         <input type="text" id="name" name="name"><br><br>   
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email"><br><br>
+        <label for="feedback">Feedback:</label>
+       <textarea id="feedback" name="feedback" placeholder="Feedback...."></textarea><br><br>
+       <input type="Submit" value="Submit">
+        </form>
+
+
+
 </body>
 </html>
