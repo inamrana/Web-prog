@@ -8,59 +8,113 @@
 </head>
 <body style="background-image: url('back.jpg'); background-size: cover; background-repeat: no-repeat;">
  
+
     <!--menu section   -->
     <nav style="background-color:#333; padding:12px; text-align:center; position:sticky; top:0;">
-    <a href="#home" style="color:white;">Home</a>
-    <a href="#about" style="color:white;">About</a>
-    <a href="#gallery" style="color:white;">Gallery</a>
-    <a href="#feedback" style="color:white;">Feedback</a>
+    <a href="#home"
+     style="color:white; text-decoration:none; padding:8px 14px; border:2px solid white; margin:6px; display: inline-block; border-radius:6px;"
+     onmouseover="this.style.backgroundColor='lightgray'; this.style.color='black';"
+     onmouseout="this.style.backgroundColor='transparent'; this.style.color='white'">Home</a>
+    <a href="#about"
+     style="color:white; text-decoration:none; padding:8px 14px; border:2px solid white; margin:6px; display: inline-block; border-radius:6px;"
+     onmouseover="this.style.backgroundColor='lightgray'; this.style.color='black';"
+     onmouseout="this.style.backgroundColor='transparent'; this.style.color='white'">About</a>
+    <a href="#gallery"
+     style="color:white; text-decoration:none; padding:8px 14px; border:2px solid white; margin:6px; display: inline-block; border-radius:6px;"
+     onmouseover="this.style.backgroundColor='lightgray'; this.style.color='black';"
+     onmouseout="this.style.backgroundColor='transparent'; this.style.color='white'">Gallery</a>
+    <a href="#feedback"
+     style="color:white; text-decoration:none; padding:8px 14px; border:2px solid white; margin:6px; display: inline-block; border-radius:6px;"
+     onmouseover="this.style.backgroundColor='lightgray'; this.style.color='black';"
+     onmouseout="this.style.backgroundColor='transparent'; this.style.color='white'">Feedback</a>
     </nav>
+
+
+
+
     <!--Heading-->
    <h1 style="text-align: center;">Art Gallery | Contemporary & Classic Art Exhibitions</h1>
-    <h2 align="center">Welcome to Our Art Gallery</h2>
-    <p>Discover a diverse collection of contemporary and classic art from renowned artists around the world. Our gallery showcases paintings, sculptures, and installations that inspire and captivate art enthusiasts of all ages.</p>
+   <br><br> 
+   <h2 align="center">WELCOME TO OUR ART GALLERY</h2>
+    <p style="margin:20px;">Discover a diverse collection of contemporary and classic art from renowned artists around the world. Our gallery showcases paintings, sculptures, and installations that inspire and captivate art enthusiasts of all ages.</p>
     <!--Current Exhibitions-->
-    <h2 align="center">Current Exhibitions</h2>
+    <h2 align="center">CURRENT EXHIBITIONS</h2>
     <ul>
         <li><strong>Modern Visions:</strong> Explore the latest trends in contemporary art with works from emerging artists.</li>
         <li><strong>Classical Inspirations:</strong> A curated selection of timeless pieces from the Renaissance to the 19th century.</li>
         <li><strong>Sculpture Garden:</strong> An outdoor exhibition featuring stunning sculptures set against a natural backdrop.</li>
     </ul>
+
 <!--Gallery-->
 <section id="gallery">
 <h2 align="center">GALLERY</h2>
-<img src="art1.jpg" alt="first artwork" style="width: 200px;" height="auto">
-<img src="art2.jpg" alt="2nd artwork" style="width: 200px;" height="auto">
-</section>
+<img src="art1.jpg"
+     style="width:200px; height:auto; margin:15px; border:3px solid #333;"
+     onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 15px #555';"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';" alt="1st artwork">
+
+<img src="art2.jpg" alt="2nd artwork" style="width: 200px; height:auto; margin:15px; border:3px solid #333;"
+     onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 15px #555';"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+<img src="art3.jpg" alt="3rd artwork" style="width: 200px; height:auto; margin:15px; border:3px solid #333;"
+     onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 15px #555';"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+<img src="art4.jpg" alt="4th artwork" style="width: 200px; height:auto; margin:15px; border:3px solid #333;"
+     onmouseover="this.style.transform='scale(1.1)'; this.style.boxShadow='0 0 15px #555';"
+     onmouseout="this.style.transform='scale(1)'; this.style.boxShadow='none';">
+
+    </section>
 <!--About-->
 <section id="about">
-    <h1 align="center">About</h1>
-    <p>Behind the Canvas: Learn about the history, mission, and vision of our art gallery. Discover how we curate our exhibitions and support artists from around the world.</p>    
+    <h2 align="center">ABOUT</h2>
+    <p style="margin:20px;">Behind the Canvas: Learn about the history, mission, and vision of our art gallery. Discover how we curate our exhibitions and support artists from around the world.</p>    
 </section>
 
 
-    <!--Visit Us -->
-    <h2>Visit Us</h2>
-    <p>Our gallery is open Tuesday to Sunday from 10 AM to 6 PM. We are located at 123 Art Lane, Creativity City. Admission is free for all visitors.</p>
-    <h2>Contact Information</h2>
-    <p>For inquiries, please email us at
-        <a href="mailto:info@artgallery.com">info@artgallery.com</a>
-    </p>
    
-<!--Feedback-->
-<section id="feedback">
-    <h1 align="center">Feedback</h1> 
-    <p>Please share your feedback with us</p>
-    <form action="#" method="post">
-        <label for="name">Name:</label>
-         <input type="text" id="name" name="name"><br><br>   
-        <label for="email">Email:</label>
-        <input type="text" id="email" name="email"><br><br>
-        <label for="feedback">Feedback:</label>
-       <textarea id="feedback" name="feedback" placeholder="Feedback...."></textarea><br><br>
-       <input type="Submit" value="Submit">
-        </form>
+   
+<section id="feedback" style="text-align:center; padding:40px;">
 
+  <h2>FEEDBACK</h2> 
+  <p>Please share your feedback with us</p>
+
+  <form action="#" method="post"
+        style="display:inline-block; background-color:rgba(0,0,0,0.7); padding:25px; border-radius:12px; color:white;">
+
+    <div style="margin-bottom:15px;">
+      <label>Name:</label><br>
+      <input type="text" name="name"
+             style="width:250px; padding:8px; border-radius:6px; border:none;">
+    </div>
+
+    <div style="margin-bottom:15px;">
+      <label>Email:</label><br>
+      <input type="email" name="email"
+             style="width:250px; padding:8px; border-radius:6px; border:none;">
+    </div>
+
+    <div style="margin-bottom:15px;">
+      <label>Feedback:</label><br>
+      <textarea name="feedback" rows="4"
+                style="width:250px; padding:8px; border-radius:6px; border:none;"
+                placeholder="Write your feedback..."></textarea>
+    </div>
+
+    <input type="submit" value="Send"
+           style="background-color:#ff9800; color:white; border:none; padding:10px 20px; border-radius:8px; cursor:pointer;"
+           onmouseover="this.style.backgroundColor='#ffa726';"
+           onmouseout="this.style.backgroundColor='#ff9800';">
+
+  </form>
+</section>
+
+ <!--Visit Us -->
+    <h2 style="text-align: center;">Visit Us</h2>
+    <p style="margin:20px;">Our gallery is open Tuesday to Sunday from 10 AM to 6 PM. We are located at 123 Art Lane, Creativity City. Admission is free for all visitors.</p>
+    <h2 style="margin:20px; text-align: center;">Contact Information</h2>
+    <p style="margin:20px;">For inquiries, please email us at
+        <a href="iaminamrana@gmail.com">iaminamrana@gmail.com</a>
+    </p>
 
 
 </body>
